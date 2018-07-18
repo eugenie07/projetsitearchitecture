@@ -1,0 +1,53 @@
+body{
+  background-image: url("20180225_153138.jpg");
+  background-size: cover;
+  margin-top: 0px;
+
+
+}
+
+@font-face {
+  font-family: "3Dumb";
+  src: url("3Dumb-webfont.svg")format("svg");
+  src: url("3Dumb-webfont.eot")format("eot");
+  src: url("3Dumb-webfont.ttf")format("ttf");
+  src: url("3Dumb-webfont.woff")format("woff");
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "3Dumb";
+}
+
+@font-face {
+  font-family: "1942";
+  src: url("1942-webfont.svg")format("svg");
+  src: url("1942-webfont.eot")format("eot");
+  src: url("1942-webfont.ttf")format("ttf");
+  src: url("1942-webfont.woff")format("woff");
+
+}
+
+.menu {
+  position:absolute;
+  top: 170px;
+  overflow: hidden;
+  transition: width 1s;
+  width: 20px;
+  height: 100%;
+  background-image: url("croquis-architecture-lisbonne.jpg");
+  font-size: 30px;
+  font-family: "1942";
+  color: black;
+  background-size: cover;
+
+}
+
+.menu:hover {
+  width: 400px;
+  background-image: url("croquis-architecture-lisbonne.jpg");
+  background-size:cover;
+  font-weight: lighter;
+
+}
